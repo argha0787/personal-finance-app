@@ -1,0 +1,31 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# JavaScript
+node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local database and generated files
+*.db
+storage/documents/*
+storage/receipts/*
+storage/reports/*
+storage/exports/*
+!storage/documents/.gitkeep
+!storage/receipts/.gitkeep
+!storage/reports/.gitkeep
+!storage/exports/.gitkeep
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
